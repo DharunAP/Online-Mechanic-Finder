@@ -3,7 +3,7 @@
         {
             "src": "mech/wsgi.py",   
             "use": "@vercel/python",
-            "config":{ "maxxLambdaSize":"15mb","runtime":"python3.11" }
+            "config":{ "maxLambdaSize":"15mb","runtime":"python3.11" }
 
         }
     ],
